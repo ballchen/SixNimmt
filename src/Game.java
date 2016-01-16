@@ -22,8 +22,9 @@ public class Game {
 		dealCardsToRows();
 	}
 
-	public Turn() {
+	public void Turn() {
 		//implement the rule of each turn here.
+		// ...
 		
 		
 		

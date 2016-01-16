@@ -16,6 +16,15 @@ class Player {
 		hand.add(card);
 	}
 
+    public Card decideCard() {
+        //add AI here to let the player decide which card to add to the row
+        // ...
+        
+        // delete this
+        Card card = hand.get(0);
+        return card;
+    }
+
     public Card removeCard(int index){
         Card card = hand.get(index);
         hand.remove(index);
